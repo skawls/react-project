@@ -1,13 +1,17 @@
-import styles from "@/styles/TraffcLight.module.css";
 
-function TraffcLight() {
-  return (
-    <>
-      <form className={styles.container}>
-      <small>멈춰!</small>
-      </form>
-    </>
-  );
+function TraffcLight({
+    container
+
+}){
+
+    return(
+        <button type="button"
+        className={container}
+        aria-label={label}
+        title={label}
+        > 
+        </button>
+    );
 }
 
-export default TraffcLight;
+export default TraffcLight
